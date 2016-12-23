@@ -1,0 +1,440 @@
+*,
+*::before,
+*after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+/*----------header----------*/
+
+header{
+	background-color:#663300;
+	height: 200px;
+	color:white;
+	border-bottom: solid 15px #CC9966; 
+
+}
+
+.header-img-pic{
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+	height: 200px;
+}
+.header-img-pic-sub{
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+	height: 200px;
+}
+
+.header-companyname{
+	list-style: none;
+	float: left;
+	font-size: 50px;
+	width: 350px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.header-sub-txt{
+	
+	float: right;
+	font-size: 20px;
+	width: 30%;
+	height: 30px;
+	margin-top: 100px;
+	text-align: right;
+}
+
+
+
+/*----------contents----------*/
+main{
+	width: 70%;
+	float: left;
+	
+}
+
+
+
+.main-yasai{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.contents-top-main{
+	width: 100%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.contents-top-main-coment{
+	
+	color: #444444;
+	text-align: center;
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+
+.contents-middle{
+	width: 100%;
+	height: 400px;
+}
+
+.middle-right-pic{
+	
+	text-align: center;
+	width: 100%;
+	margin: 10px;
+			
+}
+.contents-right{
+	color: #444444;
+	width: 45%;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	margin: 10px;
+}
+
+.middle-left-pic{
+	
+	text-align: center;
+	width: 100%;
+	margin: 10px;
+	
+}
+.contents-left{
+	color: #444444;
+	width:45%;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	margin: 10px;	
+}
+
+
+.bottom-contents{
+	clear: left;
+	height: 300px;
+	width: 100%
+	background:orange;
+	
+
+}
+.bottom-contents-pic-r{
+	display: block;
+	width: 100%;
+	margin: 10px;
+	float: left;
+}
+.bottom-contents-r{
+	display: block;
+	width:45%;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	margin: 10px;
+	color: #444444;
+}
+.bottom-contents-pic-l{
+	display: block;
+	width: 100%;
+	margin: 10px;
+	float: left;
+}
+.bottom-contents-l{
+	display: block;
+	width:44%;
+	text-align: center;
+	font-size: 20px;
+	float: left;
+	margin: 10px;
+	color: #444444;	
+}
+
+/*----------side-bar----------*/
+
+aside{
+	float: left;
+	width: 30%;
+	
+
+
+}
+.ranking{
+	text-align: center;
+	font-size: 30px;
+	color: #EEE8AA;
+	background:#006400;
+	width: 400px;
+	height: 40px;
+
+}
+
+ol{
+	
+	list-style: none;
+	border: medium solid #20B2AA;
+	width: 350px;
+	height: 500px;
+
+	
+
+}
+
+.rank1{
+	display: block;
+	font-size: 25px;
+	width: 200px;
+	position: relative;
+	padding: 0 .4em .1em;
+	color: #444444;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+
+}
+
+.rank1::after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 10px;
+	background-color: #b6f0fc;
+
+}
+.ranking-ninniku-pic{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+
+}
+
+.rank2{
+	color: #444444;
+	font-size: 25px;
+	width: 200px;
+	position: relative;
+	padding: 0 .4em .1em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+.rank2::after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 10px;
+	background-color: #b6f0fc;
+
+}
+
+.ranking-hakusai-pic{
+ 	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;	
+}
+.rank3{
+	color: #444444;
+	font-size: 25px;
+	width: 200px;
+	position: relative;
+	padding: 0 .4em .1em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+}
+.rank3::after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	content: '';
+	width: 100%;
+	height: 10px;
+	background-color: #b6f0fc;
+
+}
+
+.ranking-retasu-pic{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 150px;
+}
+.shopping-top{
+	font-size: 30px;
+	color: #EEE8AA;
+	background:#006400;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+}
+
+
+.shopping-top-list{
+	width: 300px;
+	margin: 0 0 2em;
+
+}
+
+.shopping-top-list li{
+	display: inline;
+}
+
+.shopping-top-list li a{
+	margin-bottom: 1px;
+	padding: :5px 0.5px 10px;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	border-left: 5px solid #444444;
+	background-color: #eeeeee;
+	color: #444444;
+	font-size: 20px;
+}
+
+.shopping-top-list li a:hover{
+	background-color: #999999;
+	color: #ff0000;
+	border-left: 5px solid #ff0000;
+}
+
+.mail-top{
+	width: 200px;
+	position: relative;
+	margin: 0 15px;
+	padding: 10px 20px;
+	font:bold 24px/1.6 Arial, Helvetica, sans-serif;
+	color: #444444;
+	border: #444444 solid 3px;
+	border-radius: 18px;
+	background-color: #fff;
+	box-shadow: -7px -5px 0 0 #e8e8e8 inset, 2px 3px 0 0 #000;
+}
+.mail-top:before{
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 14px;
+	width: 0;
+	height: 0;
+	border-width: 20px;
+	border-style: solid;
+	border-color: transparent;
+	border-top-color: #333; 
+}
+.mail-top:after{
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 18px;
+	width: 0;
+	height: 0;
+	border-width: 14px;
+	border-style: solid;
+	border-color: transparent;
+	border-top-color: #e8e8e8;
+
+}
+
+.mail-top:hover{
+	color: #ff0000;
+	border-left: 5px solid #ff0000;
+}
+
+.side-bar-flog{
+	width: 200px;
+}
+
+/*--------footter--------*/
+.footer-page{
+	text-align: center;
+	clear: both;
+	margin: 0;
+	padding: 0.5em 0;
+	
+		
+}
+
+.footer-top{
+	height: 100px;
+	background: #B1F9D0;
+}
+
+.twitter{
+	display: inline-block;
+	
+	
+	font-size: 20px;
+	text-align: center;
+}
+.fa{
+	list-style: none;
+
+}	
+
+
+.facebook{
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+
+
+.footer-bottom-list{
+	clear: both;
+	font-size: 0;
+	background:#663300;	
+	height: 50px;
+}
+
+.guide{
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px; 
+	font-size: 15px;
+	margin-top: 20px;
+	color: white;
+}
+
+.ideal{
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px; 
+	font-size: 15px;
+	text-align: center;
+	
+	color: white;
+}
+
+.inquiry{
+	display: inline-block;
+	padding-left: 50px;
+	padding-right: 50px; 
+	font-size: 15px;
+	text-align: center;
+	
+	color: white;
+}
